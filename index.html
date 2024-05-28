@@ -24,7 +24,48 @@
 
 <body>
   <div class="landing">
-    <nav class="row mx-auto">
+    <nav class="nav-sm">
+      <div class="logo">
+        <img src="Img/logo bg removed.png "  alt="logo" />
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="row mx-auto nav-lg">
       <div class="col-lg-5 pt-4 ul-nav-div my-0">
         <ul class="lg-nav-ul">
           <li><a class="text-decoration-none" href="">Home</a></li>
@@ -36,7 +77,7 @@
         </ul>
       </div>
       <div class="col-lg-2 nav-logo-div">
-        <img src="Img/bg none logo.png" class="nav-logo" alt="">
+        <img src="Img/PRAGO LOGO-1.png" class="nav-logo" alt="">
       </div>
       <div class="col-lg-5 pt-4 ul-nav-div my-0 ">
         <ul class="lg-nav-ul d-flex flex-row-reverse">
@@ -57,9 +98,57 @@
     </div>
   </div>
 
-  <div class="solutions col-9 row mx-auto">
+  <div class="solutions solution-sm col-10 mx-auto">
+    <div class="row">
+      <div class="solution-items col-6 hover-start">
+        <img src="Img/solution icons/icn-1.png" width="80px" height="80px" class="solution-icn-home" alt="">
+        <h5 class="solution-h5">Residential <br> Automation</h5>
+        <p class="solution-para-home">
+          Lorem ipsum dolor sit
+          amet, consectetur
+        </p>
+        <a href="" class="solution-box-link text-decoration-none">Learn More &#8594;</a>
+      </div>
+  
+      <div class="solution-items  col-6" style="border: 0;">
+        <img src="Img/solution icons/icn-2.png" width="80px" height="75px" class="solution-icn-home" alt="">
+        <h5 class="solution-h5">Commercial <br>Automation</h5>
+        <p class="solution-para-home">
+          Lorem ipsum dolor sit
+          amet, consectetur
+        </p>
+        <a href="" class="solution-box-link text-decoration-none ">Learn More &#8594;</a>
+      </div>
+    </div>
 
-    <div class="solution-items col-lg-3 hover-start">
+    <div class="row solution-sm-row2">
+      <div class="solution-items col-6">
+        <img src="Img/solution icons/icn-4.png" width="120px" height="110px" class="solution-icn-home" alt="">
+        <h5 class="solution-h5">Public Powered <br>
+          by tech</h5>
+        <p class="solution-para-home">
+          Lorem ipsum dolor sit
+          amet, consectetur
+        </p>
+        <a href="" class="solution-box-link text-decoration-none">Learn More &#8594;</a>
+      </div>
+  
+      <div class="solution-items hover-last col-6" style="border: 0;">
+        <img src="Img/solution icons/icn-5.png" width="110px" height="110px" class="solution-icn-home" alt="">
+        <h5 class="solution-h5">Public Rental <br>
+          Services</h5>
+        <p class="solution-para-home">
+          Lorem ipsum dolor sit
+          amet, consectetur
+        </p>
+        <a href="" class="solution-box-link text-decoration-none">Learn More &#8594;</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="solutions solution-lg col-9 row mx-auto">
+    <div class="solution-items col-lg-3 col-sm-6 hover-start">
       <img src="Img/solution icons/icn-1.png" width="110px" height="110px" class="solution-icn-home" alt="">
       <h5 class="solution-h5">Residential <br> Automation</h5>
       <p class="solution-para-home">
@@ -69,7 +158,7 @@
       <a href="" class="solution-box-link text-decoration-none">Learn More &#8594;</a>
     </div>
 
-    <div class="solution-items col-lg-3">
+    <div class="solution-items col-lg-3 col-sm-6">
       <img src="Img/solution icons/icn-2.png" width="130px" height="110px" class="solution-icn-home" alt="">
       <h5 class="solution-h5">Commercial <br>Automation</h5>
       <p class="solution-para-home">
@@ -103,7 +192,7 @@
   </div>
 
   <div class="about-section row mx-auto">
-    <div class="col-6 about-section-right">
+    <div class="col-lg-6 col-sm-12 about-section-right">
       <h3 class="about-h3">About Us</h3>
       <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Vivamus ornare erat fermentum nunc suscipit,
@@ -118,7 +207,7 @@
         <a href="" class="about-btn text-decoration-none">Know more about us &#8594</a>
       </div>
     </div>
-    <div class="about-section-left col-lg-6">
+    <div class="about-section-left col-lg-6 col-sm-12">
 
       <div class="abt-left">
         <h3 class="about-h3-2 mb-5">Our Features</h3>
@@ -154,9 +243,9 @@
   <div class="blog-page row">
     <h3 class="text-center mt-5 blog-title">Featured Blogs</h3>
 
-    <div class="blog-div col-lg-10 mx-auto row mb-5">
+    <div class="blog-div col-lg-10 mx-auto row mb-5 mt-5">
 
-      <div class="blog-div col-lg-5 mx-auto mt-5">
+      <div class="blog-div col-lg-5 mx-auto mt-3">
         <h3 class="blog-div-title">Lorem ipsum dolor sit amet, consectetur
           there adipiscing eli dager.</h3>
         <div class="blog-body mt-4">
@@ -165,13 +254,13 @@
             consectetur adipiscing elit.
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
-            eros porttitor. Sed quam. <br><br>
+            eros porttitor. Sed quam. <br>
             <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
         </div>
       </div>
 
-      <div class="blog-div col-lg-5 mt-5 mx-auto">
+      <div class="blog-div col-lg-5 mt-3 mx-auto">
         <h3 class="blog-div-title">Lorem ipsum dolor sit amet, consectetur
           there adipiscing eli dager.</h3>
         <div class="blog-body mt-4">
@@ -180,13 +269,13 @@
             consectetur adipiscing elit.
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
-            eros porttitor. Sed quam. <br><br>
+            eros porttitor. Sed quam. <br>
             <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
         </div>
       </div>
 
-      <div class="blog-div col-lg-5 mt-5 mx-auto">
+      <div class="blog-div col-lg-5 mt-3 mx-auto">
         <h3 class="blog-div-title">Lorem ipsum dolor sit amet, consectetur
           there adipiscing eli dager.</h3>
         <div class="blog-body mt-4">
@@ -195,13 +284,13 @@
             consectetur adipiscing elit.
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
-            eros porttitor. Sed quam. <br><br>
+            eros porttitor. Sed quam. <br>
             <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
         </div>
       </div>
 
-      <div class="blog-div col-lg-5 mt-5 mx-auto">
+      <div class="blog-div col-lg-5 mt-3 mx-auto">
         <h3 class="blog-div-title">Lorem ipsum dolor sit amet, consectetur
           there adipiscing eli dager.</h3>
         <div class="blog-body mt-4">
@@ -210,7 +299,7 @@
             consectetur adipiscing elit.
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
-            eros porttitor. Sed quam. <br><br>
+            eros porttitor. Sed quam. <br>
             <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
         </div>
@@ -252,26 +341,65 @@
       </div>
     </div>
     <h3 class="text-center mt-5 blog-title mb-5">Featured Projects</h3>
+    <div class="carousel-wrap">
 
-    <div class="slider-2 owl-carousel mx-auto">
+      <div class="owl-carousel">
 
-      <div class="card">
+        <div class="item">
+          <div class="card">
+          <div class="img">
+            <img src="Img/projects/1.png" alt="">
+          </div>
+          <div class="content">
+            <div class="card-title text-center">
+              Project name <br> goes here</div>
+            <p class="p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed
+              unde voluptas cumque.</p>
+            <div class="card-btn text-center pb-4 pt-4">
+              <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
         <div class="img">
           <img src="Img/projects/1.png" alt="">
         </div>
         <div class="content">
           <div class="card-title text-center">
             Project name <br> goes here</div>
-          <p>
+          <p class="p">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed
             unde voluptas cumque.</p>
-          <div class="card-btn text-center">
+          <div class="card-btn text-center pb-4 pt-4">
             <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </div>
         </div>
       </div>
-   
     </div>
+
+    <div class="item">
+      <div class="card">
+      <div class="img">
+        <img src="Img/projects/1.png" alt="">
+      </div>
+      <div class="content">
+        <div class="card-title text-center">
+          Project name <br> goes here</div>
+        <p class="p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed
+          unde voluptas cumque.</p>
+        <div class="card-btn text-center pb-4 pt-4">
+          <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    
   
   </div>
   <div class="videos-page row mb-5 pb-5">
@@ -297,23 +425,18 @@
   <div class="awards-div mb-5">
     <h3 class="text-center mt-5 blog-title">Awards</h3>
     <div class="awards-imgs row col-lg-11 mx-auto">
-      <div class="col-lg-3">
-        <img src="Img/awards/fevicon.png" alt="">
-      </div>
-      <div class="col-lg-3">
-        <img src="Img/awards/fevicon.png" alt="">
-      </div>
-      <div class="col-lg-3">
-        <img src="Img/awards/fevicon.png" alt="">
-      </div>
-      <div class="col-lg-3">
-        <img src="Img/awards/fevicon.png" alt="">
+      <div class="carousel-wrap">
+        <div class="owl-carousel owl-theme mx-auto">
+          <div class="item mx-auto"><img src="Img/awards/fevicon.png" width="150px" height="200px" class="text-center"></div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="Testimonials-page pt-4">
+  <div class="Testimonials-page pt-4 pb-5">
     <h3 class="text-center mt-5 blog-title pb-4">Testimonials</h3>
+    
     <div class="col-lg-10 row mx-auto">
+
       <div class="col-lg-5 mx-auto">
         <h3 class="client-name">Person Name Here</h3>
         <div class="client-review-div">
@@ -324,7 +447,8 @@
             Lorem ipsum.</p>
         </div>
       </div>
-      <div class="col-lg-5 mx-auto">
+
+      <div class="col-lg-5 mx-auto review-2">
         <h3 class="client-name">Person Name Here</h3>
         <div class="client-review-div">
           <img src="Img/clinet image/Ellipse 3.png" width="150px" alt="">
@@ -334,6 +458,7 @@
             Lorem ipsum.</p>
         </div>
       </div>
+
     </div>
   </div>
   <footer class="footer-distributed row">
@@ -402,12 +527,28 @@
 
   </footer>
   <script>
-    $(".slider-2").owlCarousel({
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 2000, //2000ms = 2s;
-      autoplayHoverPause: true,
-    });
+    $('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='ba bi-arrow-left-circle'></i>",
+    "<i class='ba bi-arrow-right-circle'></i>",
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 3
+    }
+  }
+})
   </script>
   <script src="script.js"></script>
 </body>
