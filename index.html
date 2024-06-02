@@ -23,20 +23,24 @@
 </head>
 
 <body>
-  <div class="landing">
+  <div class="landing ">
     <nav class="nav-sm">
       <div class="logo">
         <img src="Img/logo bg removed.png "  alt="logo" />
       </div>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="index.html">Home</a>
+        </li>
+        <li class="navbar-dropdown">
+          <a href="#">Solutions <i class="bi bi-caret-down-fill"></i></a>
+          <div class="dropdown">
+            <a href="solution.html">Residential Automation</a>
+            <a href="#">Commercial Automation</a>
+          </div>
         </li>
         <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
+          <a href="#">Solution</a>
         </li>
         <li>
           <a href="#">Contact Us</a>
@@ -47,7 +51,6 @@
         <span class="line"></span>
         <span class="line"></span>
       </div>
-    </nav>
     <div class="menubar">
       <ul>
         <li>
@@ -64,12 +67,18 @@
         </li>
       </ul>
     </div>
-
-    <nav class="row mx-auto nav-lg">
+  </nav>
+    <nav class="row mx-auto nav-lg navbar">
       <div class="col-lg-5 pt-4 ul-nav-div my-0">
-        <ul class="lg-nav-ul">
+        <ul class="lg-nav-ul navbar-links">
           <li><a class="text-decoration-none" href="">Home</a></li>
-          <li><a class="text-decoration-none" href="">Services</a></li>
+          <li class="navbar-dropdown">
+            <a href="#">Solutions <i class="bi bi-caret-down-fill"></i></a>
+            <div class="dropdown">
+              <a href="solution.html">Residential Automation</a>
+              <a href="#">Commercial Automation</a>
+            </div>
+          </li>
           <li><a class="text-decoration-none" href="">About us</a></li>
           <li><a class="text-decoration-none" href="">Career</a></li>
           <li><a class="text-decoration-none" href="">Blog</a></li>
@@ -255,8 +264,8 @@
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
             eros porttitor. Sed quam. <br>
-            <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
+          <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
         </div>
       </div>
 
@@ -270,8 +279,8 @@
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
             eros porttitor. Sed quam. <br>
-            <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
+          <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
         </div>
       </div>
 
@@ -285,8 +294,8 @@
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
             eros porttitor. Sed quam. <br>
-            <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
+          <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
         </div>
       </div>
 
@@ -295,13 +304,13 @@
           there adipiscing eli dager.</h3>
         <div class="blog-body mt-4">
           <img src="Img/blog/blog 4.png" width="175px" height="175px" class="blog-img" alt="">
-          <p class="blog-p mb-5">Lorem ipsum dolor sit amet,
+          <p class="blog-p mb-5 ">Lorem ipsum dolor sit amet,
             consectetur adipiscing elit.
             Vivamus ornare erat fermentum
             nunc suscipit, vitae venenatis
             eros porttitor. Sed quam. <br>
-            <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
           </p>
+          <a href="" class="blog-link text-decoration-none mt-2">Learn More &#8594;</a>
         </div>
       </div>
 
@@ -519,7 +528,7 @@
         <input class="footer-forms" placeholder="Name" type="text">
         <input class="footer-forms" placeholder="E-mail" type="email">
         <input class="footer-forms" placeholder="Phone" type="number">
-        <input class=" message-form" placeholder="Message" type="text"><br>
+        <textarea class="message-form" cols="20" placeholder="Message" type="text"></textarea><br>
         <button class="form-btn">send <i class="bi bi-arrow-right-circle"></i></button>
       </form>
 
@@ -532,8 +541,8 @@
   margin: 10,
   nav: true,
   navText: [
-    "<i class='ba bi-arrow-left-circle'></i>",
-    "<i class='ba bi-arrow-right-circle'></i>",
+    "<i class='ba bi-arrow-left-circle text-center'></i>",
+    "<i class='ba bi-arrow-right-circle text-center'></i>",
   ],
   autoplay: true,
   autoplayHoverPause: true,
