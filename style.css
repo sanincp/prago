@@ -800,6 +800,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white ;
     border-bottom: 0px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -882,6 +883,7 @@ nav{
     justify-content: center;
     align-items: flex-start;
     width: 60%;
+    color: white !important;
     height: 100vh;
     padding: 20% 0;
     background:#1B1A1A;
@@ -903,7 +905,7 @@ nav{
   
   .menubar ul li a {
     text-decoration: none;
-    color: white;
+    color: white !important;
     font-size: 95%;
     font-weight: 400;
     padding: 5px 10px;
@@ -927,9 +929,6 @@ nav{
     }
     .hamburger {
       display: block;
-    }
-    .nav-sm ul {
-      display: none;
     }
     .nav-lg{
       visibility: hidden;
