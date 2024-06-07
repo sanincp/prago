@@ -69,7 +69,7 @@ nav{
   font-weight: 400;
 }
 .navbar-dropdown .dropdown a:hover {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .navbar-links li a:hover {
   background: linear-gradient(180deg, #0EB1E4 0%, #60C0A3 100%);
@@ -769,6 +769,7 @@ nav{
     margin-left: 25%;
   }
   .footer-ul li{
+    list-style: none;
     padding: 5px 0;
     margin-left: 25%;
   }
@@ -792,7 +793,7 @@ nav{
     .footer-distributed .footer-center i{
       margin-left: 0;
     }
-  
+   
   }
   .nav-sm {
     visibility: hidden;
@@ -804,7 +805,7 @@ nav{
     border-bottom: 0px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    z-index: 1;
+    z-index: 100000 !important;
   }
   .nav-sm .logo {
     display: flex;
@@ -819,11 +820,13 @@ nav{
   
   .nav-sm ul {
     list-style: none;
-    display: flex;
+    font-size: 22px;
+    font-family: "poppins";
+    font-weight: 300;
   }
   .nav-sm ul li {
     color: white !important;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
   }
   .nav-sm ul li a {
     text-decoration: none;
@@ -868,7 +871,7 @@ nav{
   }
   
   .hamburger-active .line:nth-child(1) {
-    transform: translateY(12px);
+    transform: translateY(18px);
   }
   
   .hamburger-active .line:nth-child(3) {
@@ -880,19 +883,17 @@ nav{
     top: 0;
     left: -60%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     width: 60%;
     color: white !important;
     height: 100vh;
     padding: 20% 0;
     background:#1B1A1A;
     transition: all 0.5s ease-in;
-    z-index: 2;
+    z-index: 10000;
   }
   .active {
     left: 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
   }
   
   .menubar ul {
@@ -1325,7 +1326,6 @@ nav{
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   z-index: 1;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
