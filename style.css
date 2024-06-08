@@ -905,7 +905,7 @@ nav{
 
   .landing-home-automation{
     width: 100%;
-    background-size: cover;
+    background-size: auto;
     height:100%;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(Img/background/landing-home-automation-2.jpg) !important;
   }
