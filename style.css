@@ -849,6 +849,8 @@ nav{
       width: 100px;
     }
     .landing{
+      background-repeat: no-repeat;
+    background-size: auto;
       height: 90vh;
     }
   }
