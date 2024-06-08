@@ -776,9 +776,6 @@ nav{
     .solution-box-link{
       font-size: 13px;
     }
-    .solution-sm-row2 .solution-items{
-      margin-top: -2rem;
-    }
     .solution-lg{
       display: none;
     }
@@ -847,6 +844,9 @@ nav{
     }
     .client-review-div img{
       width: 100px;
+    }
+    .landing-home-automation{
+      background-size: auto;
     }
     .landing{
       background-repeat: no-repeat;
